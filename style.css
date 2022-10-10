@@ -1,0 +1,32 @@
+body{
+    background: #eee;
+
+}
+
+header {
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background: rgb(98, 198, 223);
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 0 10px 1px black;
+    transition: margin-right 4s, color 1s;;
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition:margin-right 4s 1s; 
+    
+
+}
+
+footer{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background: rgb(112, 102, 102);
+    padding: 20px;
+    margin: 50px;
+    backdrop-filter:   ;
+    box-shadow: 0 0 10px 1px rgb(252, 1, 1);
+    
+}
