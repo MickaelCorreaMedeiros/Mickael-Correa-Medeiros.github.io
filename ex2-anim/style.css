@@ -1,0 +1,11 @@
+#exemplo {
+    border: 2px solid #000;
+    /* width: 1000px;
+    height: 640px; */    
+    margin: auto;
+
+}
+body{
+    width: 100vw;
+    background: #000;
+}

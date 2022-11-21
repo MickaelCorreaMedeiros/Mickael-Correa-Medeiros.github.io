@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head> 
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="java.js" defer></script>
+    <title>Atividade</title>
+</head>
+<body>
+    
+
+    
+    <div class="tabs">
+        <button id="btn-0" class="tab">Conversor de graus Celsius para Rankine</button>
+        <button id="btn-1" class="tab">Conversor de Kelvin para graus Réaumur</button>
+        <button id="btn-2" class="tab">Conversor de km/L em L/100km</button>
+    </div>
+
+    <div class="container">
+        <div class="wrapper" id="wrapper-0">
+            <h1>Conversor de graus Celsius para Rankine</h1>
+            <label>Temperatura °C:</label>
+            <input type="number" id="entrada-ctor">
+            <label>Resultado:</label>
+            <input type="text" id="result-ctor" disabled/>
+            <button class="ConvCtoR()" id="converte-ctor">Calcular</button>
+        </div>
+        <div class="wrapper" id="wrapper-1">
+            <h1>Conversor de Kelvin para graus Réaumur</h1>
+            <label>Temperatura °K:</label>
+            <input type="number" id="entrada-ktor">
+            <label>Resultado:</label>
+            <input type="text" id="result-ktor" disabled/>
+            <button class="Convktor()" id="converte-ktor">Calcular</button>
+        </div>
+        
+        <div class="wrapper" id="wrapper-2">
+            <h1>Conversor de km/L em L/100km</h1>
+            <label>km/L:</label>
+            <input type="number" id="entrada-km">
+            <label>Resultado:</label>
+            <input type="text" id="result-km" disabled/>
+            <button class="Convkm()" id="conv-km">Calcular</button>
+         </div>
+</div>
+
+
+</body> 
+</html>

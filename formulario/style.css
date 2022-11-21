@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(143, 143, 143);
+    margin: auto;
+
+}
+
+
+form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px;
+    background: rgb(245,155,194);
+    background: radial-gradient(circle, rgba(245,155,194,1) 0%, rgba(255,255,255,1) 100%);
+
+
+
+
+
+    
+}
+
+input:focus{
+    transform:scale(1.2);
+    transition: 1s all;
+}
+
+
+input{
+    transition: 1s all;
+    backdrop-filter: blur(10px);
+    width: 70%;
+
+}
+
+input:invalid{
+    border-bottom: 2px solid red;
+    
+}
+
+h1{
+    text-align: center;
+    position: sticky;
+    background-image: url("https://kinsta.com/pt/wp-content/uploads/sites/3/2020/01/formularios-wordpress-1024x512.png");
+    margin: 10px;
+    filter: grayscale(100%);
+    color: aliceblue;
+    transform: skew(0deg, 1deg);
+}
+
+
+
